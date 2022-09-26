@@ -53,6 +53,7 @@ group :development, :test do
   gem 'capybara'
   gem 'factory_bot_rails'
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  gem 'faker'
 end
 
 group :development do
